@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- <template id="assets" inherit_id="point_of_sale.assets">
+          <xpath expr="." position="inside"> -->
+
+        <template id="assets_backend" name="pos assets" inherit_id="point_of_sale.assets_backend">
+            <xpath expr="." position="inside">
+            	<link rel="stylesheet" href="pos_product_packs/static/src/css/pos_multi_pricelist.css" type="text/css">
+				<link rel="stylesheet" href="pos_product_packs/static/src/css/pos_product_pack.css" type="text/css">
+				<script type="text/javascript" src="/pos_product_packs/static/src/js/pos_multi_pricelist.js"></script>
+				<script type="text/javascript" src="/pos_product_packs/static/src/js/pos_product_pack_file.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>
